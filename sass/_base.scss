@@ -16,6 +16,22 @@ html, body {
     background: linear-gradient(89.8deg, #E53C77 -11.37%, #8380DB 104.55%);
     border-radius: 100px;
 }
+@mixin button-edu {
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    
+    width: 275px;
+    height: 41px;
+    
+    background: linear-gradient(89.8deg, #E53C77 -11.37%, #8380DB 104.55%);
+    border-radius: 100px;
+}
 @mixin button-line {
     padding: 10px 20px;
     justify-content: center;
@@ -58,35 +74,54 @@ html, body {
         text-fill-color: transparent;
     
 }
-.col-3 {
+#skills-section {
+    .col-3 {
     
-    width: 367px;
-    height: 274px;
-    border-radius: 25px;
-    border: 1px solid #E53C77;
-    padding: 30px 40px 0 30px;
-    margin-top: 30px;
-    column-gap: 30px;
-    row-gap: 30px;
-   
-    .skills-{
-        &myskills {
-            font-style: normal;
-            font-weight: 500;
-            font-size: 10px;
-            line-height: 15px;
+        width: 367px;
+        height: 274px;
+        border-radius: 25px;
+        border: 1px solid #E53C77;
+        padding: 30px 40px 0 30px;
+        margin-top: 30px;
+        column-gap: 30px;
+        row-gap: 30px;
+       
+        .skills-{
+            &myskills {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                line-height: 15px;
+            }
+            &title {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 36px;
+            }
+            &desc {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+            }
         }
-        &title {
-            font-style: normal;
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 36px;
+    }
+
+}
+#portfolio-section {
+    .col-6> {
+        div {
+            img {
+                width: 559px;
+                height: 325px;
+            }
         }
-        &desc {
-            font-style: normal;
-            font-weight: 500;
-            font-size: 12px;
-            line-height: 18px;
-        }
+        
+    }
+}
+#education-section {
+    .col {
+        
     }
 }

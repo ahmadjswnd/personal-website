@@ -60,7 +60,7 @@ html, body {
   text-fill-color: transparent;
 }
 
-.col-3 {
+#skills-section .col-3 {
   width: 367px;
   height: 274px;
   border-radius: 25px;
@@ -70,23 +70,28 @@ html, body {
   column-gap: 30px;
   row-gap: 30px;
 }
-.col-3 .skills-myskills {
+#skills-section .col-3 .skills-myskills {
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
   line-height: 15px;
 }
-.col-3 .skills-title {
+#skills-section .col-3 .skills-title {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
 }
-.col-3 .skills-desc {
+#skills-section .col-3 .skills-desc {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
+}
+
+#portfolio-section .col-6 > div img {
+  width: 559px;
+  height: 325px;
 }
 
 #navbar {
@@ -213,4 +218,106 @@ html, body {
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
+}
+
+#portfolio-section {
+  background: #0A0909 !important;
+  color: white;
+}
+#portfolio-section .portfolio-p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+#portfolio-section .portfolio-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  padding-bottom: 30px;
+}
+#portfolio-section .portfolio-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 30px;
+}
+#portfolio-section .portfolio-desc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 20px 0;
+}
+#portfolio-section .portfolio-btn-line {
+  padding: 10px 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  width: 114px;
+  height: 41px;
+  border: 1px solid #E53C77;
+  border-radius: 100px;
+  margin-bottom: 70px;
+}
+
+#education-section {
+  background: #0A0909;
+  color: white;
+  padding-top: 30px;
+}
+#education-section .education-p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+#education-section .education-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  padding-bottom: 30px;
+}
+#education-section .education-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  height: 36px;
+}
+#education-section .education-desc {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  height: 21px;
+}
+#education-section .education-ket {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  height: 18px;
+}
+#education-section .education-btn {
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  width: 275px;
+  height: 41px;
+  background: linear-gradient(89.8deg, #E53C77 -11.37%, #8380DB 104.55%);
+  border-radius: 100px;
 }

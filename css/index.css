@@ -7,37 +7,210 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: "";
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-heading {
+  background: linear-gradient(90deg, #E53C77 0%, #8380DB 103.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.col-3 {
+  width: 367px;
+  height: 274px;
+  border-radius: 25px;
+  border: 1px solid #E53C77;
+  padding: 30px 40px 0 30px;
+  margin-top: 30px;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+.col-3 .skills-myskills {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+}
+.col-3 .skills-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.col-3 .skills-desc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#navbar {
+  background: #0C0F14 !important;
+  height: 80px;
+}
+#navbar .navbar-nav {
+  column-gap: 51px;
+  margin-right: 46px;
+}
+#navbar .nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0;
+}
+#navbar .nav-link.active {
+  color: white;
+  font-style: normal;
+  border-bottom: 1px solid #E53C77;
+}
+#navbar .nav-btn {
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  width: 95px;
+  height: 37px;
+  background: linear-gradient(89.8deg, #E53C77 -11.37%, #8380DB 104.55%);
+  border-radius: 100px;
+}
+
+#hero-section {
+  background: #0C0F14 !important;
+  height: 576px;
+  color: white;
+}
+#hero-section .hero-hi {
+  font-weight: 500;
+  font-size: 24px;
+  padding-bottom: 12px;
+}
+#hero-section .hero-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  padding-bottom: 24px;
+}
+#hero-section .hero-desc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 34px;
+}
+#hero-section .hero-btn-line {
+  padding: 10px 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  width: 114px;
+  height: 41px;
+  border: 1px solid #E53C77;
+  border-radius: 100px;
+}
+#hero-section .hero-btn {
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  width: 91px;
+  height: 41px;
+  background: linear-gradient(89.8deg, #E53C77 -11.37%, #8380DB 104.55%);
+  border-radius: 100px;
+}
+
+#skills-section {
+  padding: 100px 0px;
+  background: #0A0909 !important;
+  color: white;
+}
+#skills-section .skills-p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 4px;
+  line-height: 30px;
+}
+#skills-section .skills-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+#skills-section #col .skills-myskills {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+}
+#skills-section #col .skills-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+#skills-section #col .skills-desc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
 }

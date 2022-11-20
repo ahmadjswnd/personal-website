@@ -1,0 +1,33 @@
+#hero-section {
+    background: #0C0F14 !important;
+    height: 576px;
+    color: white;
+    .hero- {
+    &hi {
+        font-weight: 500;
+        font-size: 24px;
+        padding-bottom: 12px;
+        }
+    &heading {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        padding-bottom: 24px;
+    }
+    &desc {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 34px;
+    }
+    &btn-line {
+        @include button-line;
+    }
+    &btn {
+        @include button-hero;
+    }
+}
+  
+   
+}

@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light sticky-top" id="navbar">
         <div class="container">
           <img height="34px" src="assets/logo.png" class="navbar-brand" alt="logo">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,23 +24,23 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+              <li class="item">
+                <a class="nav" href="#navbar">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About me</a>
+              <li class="item">
+                <a class="nav" href="#hero-section">About me</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+              <li class="item">
+                <a class="nav" href="#skills-section">Skills</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+              <li class="item">
+                <a class="nav" href="#portfolio-section">Portfolio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Education</a>
+              <li class="item">
+                <a class="nav" href="#education-section">Education</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Experience</a>
+              <li class="item">
+                <a class="nav" href="#experience-section">Experience</a>
               </li>
             </ul>
             <div>
@@ -54,8 +54,8 @@
       <!-- Hero Section -->
       <section id="hero-section">
         <div class="container h-100">
-          <div class="d-flex row align-items-center h-100">
-          <div class="col-6">
+          <div class="d-flex flex-wrap-reverse row align-items-center h-100">
+          <div class="col-lg-6">
             <h4 class="hero-hi">Hi, i’am</h4>
             <h1 class="hero-heading gradient">AHMAD JOESWANDA</h1>
             <p class="hero-desc">Hello i am Ahmad, enthusiastic about technological developments, experienced in making creative designs, and an expert in Graphic Design, Web Design, managing websites, and Layout Design. Graduated from Indonesian Muslim University with, Bachelor's Degree of Informatics Engineering.</p>
@@ -65,8 +65,12 @@
             </div>
           </div>
 
-          <div class="col-6">
-            <img src="assets/hero.png" alt="hero">
+          <div class="col-lg-6">
+            <img src="assets/hero.png"
+            class="image-fluid"
+            width="100%"
+            height="auto"
+            alt="hero">
           </div>
 
           </div>
@@ -77,11 +81,11 @@
       <!-- Skills -->
       <section id="skills-section">
         <div class="container h-100">
-          <div class="row-12">
+          <div class="row-lg-12">
             <p class="skills-p">Skills</p>
             <h1 class="skills-heading">This Skills i Have</h1>
           </div>
-          <div class="d-flex row gap-3">
+          <div class="d-flex row gap-3 justify-content-center">
           <div class="col-3">
             <div>
               <img height="80px" src="assets/web.svg" alt="hero">
@@ -119,9 +123,13 @@
             <h1 class="portfolio-heading">Completed Portfolio</h1>
           </div>
           <div class="d-flex row">
-            <div class="col-6">
+            <div class="col-lg-6">
               <div>
-                <img src="assets/portfolio1.png" alt="portfolio1">
+                <img src="assets/portfolio1.png"
+                class="image-fluid"
+                width="100%"
+                height="auto"
+                alt="portfolio1">
               </div>
               <h1 class="portfolio-title">Slicing UI Tasi Project Bootstrap</h1>
               <p class="portfolio-desc">HTML | CSS | JS | Bootstrap</p>
@@ -129,9 +137,13 @@
                 <a type="submit" class="portfolio-btn-line">Open Link</a>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
               <div>
-                <img src="assets/portfolio2.png" alt="portfolio1">
+                <img src="assets/portfolio2.png"
+                class="image-fluid"
+                width="100%"
+                height="auto"
+                alt="portfolio1">
               </div>
               <h1 class="portfolio-title">Slicing UI Tasi Project Bootstrap</h1>
               <p class="portfolio-desc">Figma | Adobe Illustrator | Whimsical</p>
@@ -139,9 +151,13 @@
                 <a type="submit" class="portfolio-btn-line">Open Link</a>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
               <div>
-                <img src="assets/portfolio3.png" alt="portfolio1">
+                <img src="assets/portfolio3.png"
+                class="image-fluid"
+                width="100%"
+                height="auto"
+                alt="portfolio1">
               </div>
               <h1 class="portfolio-title">UI/UX Design Sribu Challenge Website</h1>
               <p class="portfolio-desc">Figma | Adobe Illustrator | Whimsical</p>
@@ -149,9 +165,13 @@
                 <a type="submit" class="portfolio-btn-line">Open Link</a>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
               <div>
-                <img src="assets/portfolio4.png" alt="portfolio1">
+                <img src="assets/portfolio4.png"
+                class="image-fluid"
+                width="100%"
+                height="auto"
+                alt="portfolio1">
               </div>
               <h1 class="portfolio-title">UI/UX Re-Design KEI Website</h1>
               <p class="portfolio-desc">Figma | Adobe Illustrator | Whimsical</p>
@@ -167,48 +187,46 @@
       <!-- Education -->
       <section id="education-section">
         <div class="container h-100">
-          <div class="row-12">
+          <div class="row-lg-12">
             <p class="education-p">Education</p>
             <h1 class="education-heading">My Journey to Education</h1>
           </div>
-          <div class="d-flex row align-items-center g-4">
-            <div class="col-2">
-              <img src="assets/education1.png" alt="education1">
+
+          <div class="d-flex row align-items-center">
+            <div class="col-lg-2">
+              <img src="assets/education1.png"
+              alt="education1">
             </div>
-            <div class="col-5">
+            <div class="col-lg-10">
               <h2 class="education-title">Bachelor of Informatics Engineering</h2>
               <p class="education-desc">GPA: 3.24</p>
               <p class="education-ket">Graduate</p>
+              <p class="education-btn mt-3">Sep 2017 - Okt 2021 (4 Years)</p>
             </div>
-            <div class="col-5">
-              <p class="education-btn">Sep 2017 - Okt 2021 (4 Years)</p>
-            </div>
-            <div class="col-2">
+          </div>   
+          <div class="d-flex row align-items-center mt-4">
+            <div class="col-lg-2">
               <img src="assets/education2.png" alt="education2">
             </div>
-            <div class="col-5">
+            <div class="col-lg-10">
               <h2 class="education-title">Google, Foundation of UX Design</h2>
               <p class="education-desc">2022</p>
               <p class="education-ket">Ungraduate</p>
+              <p class="education-btn mt-3">April 2022 - Mei 2022 (1 Months)</p>
             </div>
-            <div class="col-5">
-              <p class="education-btn">April 2022 - Mei 2022 (1 Months)</p>
-            </div>
-            <div class="col-2">
+          </div>
+          <div class="d-flex row align-items-center mt-5">
+            <div class="col-lg-2">
               <img src="assets/education2.png" alt="education2">
             </div>
-            <div class="col-5">
+            <div class="col-lg-5">
               <h2 class="education-title">Skillvul, UI UX Design Mastery</h2>
               <p class="education-desc">2022</p>
               <p class="education-ket">Ungraduate</p>
-            </div>
-            <div class="col-5">
-              <p class="education-btn">April 2022 - Mei 2022 (1 Months)</p>
+              <p class="education-btn mt-3">April 2022 - Mei 2022 (1 Months)</p>
             </div>
           </div>
-          </div>
-            
-          </div>
+
         </div>
       </section>
       <!-- Education -->
@@ -217,9 +235,10 @@
       <section id="experience-section">
         <div class="container h-100">
           <div class="row-12">
+          <div class="d-flex row m-auto">
             <p class="experience-p">Experience</p>
             <h1 class="experience-heading">My Journey to Experience</h1>
-            <div class="col">
+            <div class="colom h-100">
               <h2 class="experience-job">Social Media & UI UX Design - PT Konsultan Anak Muda Indonesia</h2>
               <h3 class="experiece-years">Mei 2022 - Juni 2022 (2 Months)</h3>
               <p class="experience-desc">
@@ -227,7 +246,7 @@
                 - Designing and creating the interface for the Corporate Financial Management application.
               </p>
             </div>
-            <div class="col">
+            <div class="colom h-100">
               <h2 class="experience-job">Digital Marketing - PT Jawda Mitra Prima</h2>
               <h3 class="experiece-years">Mei 2022 - Juni 2022 (2 Months)</h3>
               <p class="experience-desc">
@@ -236,7 +255,7 @@
                 - Handling Packaging Design for 2-3 Products including Product Photos to Final Production.
               </p>
             </div>
-            <div class="col">
+            <div class="colom h-100">
               <h2 class="experience-job">Content Creator - Tahfidz Land Maros</h2>
               <h3 class="experiece-years">Mei 2022 - Juni 2022 (2 Months)</h3>
               <p class="experience-desc">
@@ -244,6 +263,8 @@
                 - Determine the marketing strategy with the company's marketing team.
               </p>
             </div>
+          </div>
+
           </div>
         </div>
       </section>

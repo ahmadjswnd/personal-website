@@ -94,7 +94,7 @@ html, body {
   height: 325px;
 }
 
-#experience-section .col {
+#experience-section .colom {
   padding: 30px 30px;
   width: 1139px;
   border: 1px solid #E53C77;
@@ -102,22 +102,22 @@ html, body {
   left: 151px;
   top: 3321px;
   border-radius: 25px;
-  margin: 30px 0 0 0;
+  margin: 30px 0px;
 }
-#experience-section .col .experience-job {
+#experience-section .colom .experience-job {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
   padding-bottom: 8px;
 }
-#experience-section .col .experience-years {
+#experience-section .colom .experience-years {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
 }
-#experience-section .col .experience-desc {
+#experience-section .colom .experience-desc {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -127,21 +127,31 @@ html, body {
 
 #navbar {
   background: #0C0F14 !important;
-  height: 80px;
+  padding: 10px;
 }
 #navbar .navbar-nav {
   column-gap: 51px;
   margin-right: 46px;
 }
-#navbar .nav-link {
+#navbar .navbar-toggler {
+  color: white;
+}
+#navbar .item > a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
   padding: 0;
+  text-decoration: none;
 }
-#navbar .nav-link.active {
+#navbar .item > a:hover {
+  cursor: pointer;
+  color: white;
+  font-style: normal;
+}
+#navbar .item > a:active {
+  cursor: pointer;
   color: white;
   font-style: normal;
   border-bottom: 1px solid #E53C77;
@@ -162,7 +172,7 @@ html, body {
 
 #hero-section {
   background: #0C0F14 !important;
-  height: 576px;
+  height: 100vh;
   color: white;
 }
 #hero-section .hero-hi {
@@ -215,7 +225,7 @@ html, body {
 }
 
 #skills-section {
-  padding: 100px 0px;
+  padding-top: 80px;
   background: #0A0909 !important;
   color: white;
 }
@@ -236,6 +246,7 @@ html, body {
 #portfolio-section {
   background: #0A0909 !important;
   color: white;
+  padding-top: 80px;
 }
 #portfolio-section .portfolio-p {
   font-style: normal;
@@ -284,7 +295,7 @@ html, body {
 #education-section {
   background: #0A0909;
   color: white;
-  padding-top: 30px;
+  padding-top: 80px;
 }
 #education-section .education-p {
   font-style: normal;
@@ -358,7 +369,7 @@ html, body {
   background: #0A0909 !important;
   color: white;
   text-align: center;
-  padding: 150px 0px 60px 0px;
+  padding: 150px 0px 40px 0px;
 }
 #footer-section .sosmed {
   padding-top: 20px;

@@ -1,28 +1,36 @@
 #navbar {
     background: #0C0F14 !important;
-    height: 80px;
+    padding: 10px;
     .navbar-nav {
         column-gap: 51px;
         margin-right: 46px;
     }
-    .nav-{
-        &link {
+    .navbar- {
+        &toggler {
+          color: white;  
+        }   
+    }
+        .item > a{
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
             line-height: 24px;
             color: rgba(255, 255, 255, 0.6);
             padding: 0;
-
-            &.active {
-                color: white;
-                font-style: normal;
-                
-                border-bottom: 1px solid #E53C77;
-            }
+            text-decoration: none;
         }
-        &btn {
+        .item > a:hover {
+            cursor: pointer;
+            color: white;
+            font-style: normal;
+        }
+        .item > a:active {
+            cursor: pointer;
+            color: white;
+            font-style: normal;
+            border-bottom: 1px solid #E53C77;
+        }
+        .nav-btn {
             @include button-basic;
         }
     }
-}

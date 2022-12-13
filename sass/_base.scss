@@ -118,23 +118,12 @@ html, body {
         
     }
 }
-.experience- {
-        &job {
-            font-style: normal;
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 36px;
-        }
-        &years {
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 30px;
-        }
-        &desc {
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 21px;
-        }
+#experience-section {
+    .col {
+        width: 1139px;
+        height: 185px;
+        left: 151px;
+        top: 3321px;
+        border-radius: 25px; 
     }
+}
